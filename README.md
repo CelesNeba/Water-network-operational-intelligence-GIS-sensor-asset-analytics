@@ -123,3 +123,75 @@ The analysis follows a structured workflow:
 - KPI visualisation and filtering
 - Map-based exploration of network health
 - Trend and anomaly tracking
+
+
+### Key outputs
+
+#### 1. Leak detection insights
+- Sensors exhibiting abnormal pressure behaviour are flagged
+- Early warning indicators of potential pipe failure are identified
+
+#### 2. Spatial hotspot maps
+- Geographic clusters of leaks and bursts are visualised
+- High-risk zones within the network are identified
+
+#### 3. Asset risk ranking
+- Water infrastructure is ranked by predicted failure risk
+- Prioritisation list for maintenance planning is generated
+
+#### 4. Customer impact analysis
+- Estimated number of affected customers per incident
+- Identification of high-impact failure zones
+
+#### 5. Executive Dashboard
+
+An interactive Power BI dashboard providing:
+
+- Network health overview
+- Leak and burst monitoring
+- Asset risk distribution
+- Geographic hotspot visualisation
+- Operational performance KPIs
+
+#### Tools & technologies
+- Python (Pandas, NumPy)
+- GeoPandas (Spatial Analysis)
+- Matplotlib / Seaborn (Visualisation)
+- Power BI (Dashboarding)
+- GIS concepts (Buffers, Hotspots, Spatial Joins)
+
+### Key insights (Expected)
+
+- Leak events are spatially clustered rather than randomly distributed
+- Older assets show significantly higher failure probability
+- Pressure instability is a leading indicator of bursts
+- Certain zones consistently contribute disproportionately to network failures
+- Combining sensor + GIS data significantly improves operational visibility
+
+### Business value
+
+This type of analytics enables water utilities to:
+
+- Reduce reactive maintenance costs
+- Improve leak detection speed
+- Prioritise infrastructure investment
+- Reduce customer disruption
+- Improve regulatory reporting quality
+- Transition toward predictive asset management
+
+Project Structure
+- data/
+- notebooks/
+- powerbi/
+- outputs/
+- docs/
+- README.md
+
+### Disclaimer
+
+This project uses synthetic data only and is intended for educational and portfolio purposes. It is inspired by real-world challenges faced by UK water utilities.
+
+### Author
+- Neba Celestine Che
+- Geospatial & Data Analytics Project
+- Focus: GIS, Sensor Analytics, Operational Intelligence
