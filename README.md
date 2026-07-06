@@ -83,3 +83,43 @@ To replicate a realistic utility environment, multiple interconnected datasets a
 - Critical infrastructure:  Hospitals, schools, and key sites
 
 All datasets are structurally linked via spatial and relational identifiers.
+
+### Methodology
+
+The analysis follows a structured workflow:
+
+#### 1. Data engineering
+- Data cleaning and validation
+- Handling missing values and inconsistencies
+- Standardisation of time-series sensor data
+- Integration of spatial and non-spatial datasets
+
+#### 2. Exploratory data analysis (EDA)
+- Pressure trend analysis
+- Leak frequency distribution
+- Asset age vs failure correlation
+- Temporal patterns in bursts and complaints
+
+#### 3. GIS analysis
+- Spatial joins between assets, sensors, and incidents
+- Hotspot detection of leak clusters
+- Buffer analysis around critical infrastructure
+- Zone-based aggregation of network performance
+
+#### 4. Feature engineering
+- Leak probability indicators
+- Asset risk scoring variables
+- Aggregated sensor anomaly features
+- Environmental exposure factors
+
+#### 5. Operational analytics
+- Identification of high-risk zones
+- Ranking of critical assets
+- Customer impact estimation
+- Network vulnerability assessment
+
+#### 6. Dashboard development
+- Power BI dashboard design for operational users
+- KPI visualisation and filtering
+- Map-based exploration of network health
+- Trend and anomaly tracking
