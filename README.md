@@ -42,11 +42,13 @@ The goal of this project is to design a data-driven operational intelligence fra
 - Detect early warning signals before failure escalation
 
 #### 2. Geospatial analysis of network failures
+
 - Map historical leak and burst events
 - Identify spatial hotspots and clustering patterns
 - Analyse pressure zones and geographic vulnerability
 
 #### 3. Asset Risk Scoring
+
 - Develop a risk model for water assets based on:
 - Asset age
 - Material type
@@ -56,11 +58,13 @@ The goal of this project is to design a data-driven operational intelligence fra
 - Produce a ranked list of high-risk infrastructure
 
 #### 4. Operational impact assessment
+
 - Estimate customer impact per incident
 - Identify proximity of failures to critical infrastructure (e.g. hospitals, schools)
 - Highlight high-impact zones within the network
 
 #### 5. Decision support dashboarding
+
 - Build an interactive Power BI dashboard for operational teams
 - Provide KPI-level visibility of network health
 - Enable spatial exploration of leaks, assets, and risk zones
