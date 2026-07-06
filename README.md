@@ -26,12 +26,41 @@ These challenges result in increased operational cost, service disruption, and d
 
 Water companies lack a unified analytical approach to:
 
--Detect anomalies in sensor pressure and flow data
-
--Identify spatial clusters of leaks and bursts
-
--Quantify risk at the asset (pipe) level
-
--Understand customer and infrastructure impact of failures
-
+- Detect anomalies in sensor pressure and flow data
+- Identify spatial clusters of leaks and bursts
+- Quantify risk at the asset (pipe) level
+- Understand customer and infrastructure impact of failures
 - Prioritise maintenance based on evidence rather than reactive reporting
+
+  ### Project objectives
+
+The goal of this project is to design a data-driven operational intelligence framework that enables:
+
+#### 1. Sensor-based anomaly detection
+- Identify abnormal pressure behaviour in near real-time
+- Flag potential leak events using statistical thresholds and trend analysis
+- Detect early warning signals before failure escalation
+
+#### 2. Geospatial analysis of network failures
+- Map historical leak and burst events
+- Identify spatial hotspots and clustering patterns
+- Analyse pressure zones and geographic vulnerability
+
+#### 3. Asset Risk Scoring
+- Develop a risk model for water assets based on:
+- Asset age
+- Material type
+- Historical failure frequency
+- Local pressure conditions
+- Environmental exposure
+- Produce a ranked list of high-risk infrastructure
+
+#### 4. Operational impact assessment
+- Estimate customer impact per incident
+- Identify proximity of failures to critical infrastructure (e.g. hospitals, schools)
+- Highlight high-impact zones within the network
+
+#### 5. Decision support dashboarding
+- Build an interactive Power BI dashboard for operational teams
+- Provide KPI-level visibility of network health
+- Enable spatial exploration of leaks, assets, and risk zones
