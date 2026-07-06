@@ -68,3 +68,18 @@ The goal of this project is to design a data-driven operational intelligence fra
 - Build an interactive Power BI dashboard for operational teams
 - Provide KPI-level visibility of network health
 - Enable spatial exploration of leaks, assets, and risk zones
+
+### Data sources (Synthetic / simulated)
+
+To replicate a realistic utility environment, multiple interconnected datasets are generated:
+
+- Sensor readings: Pressure and flow readings over time
+- Water assets: Pipes, materials, installation year, location
+- Leak events: Recorded bursts and failures
+- Repair logs: Maintenance activity and response time
+- Customer complaints: Service disruption reports
+- Weather data: Environmental conditions influencing failures
+- Pressure zones: Operational segmentation of the network
+- Critical infrastructure:  Hospitals, schools, and key sites
+
+All datasets are structurally linked via spatial and relational identifiers.
