@@ -27,7 +27,11 @@ These challenges result in increased operational cost, service disruption, and d
 Water companies lack a unified analytical approach to:
 
 -Detect anomalies in sensor pressure and flow data
+
 -Identify spatial clusters of leaks and bursts
+
 -Quantify risk at the asset (pipe) level
+
 -Understand customer and infrastructure impact of failures
+
 - Prioritise maintenance based on evidence rather than reactive reporting
